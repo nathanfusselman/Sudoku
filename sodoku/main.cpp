@@ -1,14 +1,14 @@
 //
-//  main.c
+//  main.cpp
 //  sodoku
 //
 //  Created by Nathan Fusselman on 12/19/20.
 //
 
-#include <stdio.h>
+#include <iostream>
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
