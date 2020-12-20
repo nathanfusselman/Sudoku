@@ -14,13 +14,18 @@
 class Board {
     friend std::ostream& operator<<(std::ostream& os, const Board myBoard);
 private:
-    int activeBoard[10][10];
-    int ansBoard[10][10];
-    int optionsBoard[10][10][10];
+    int activeBoard[9][9];
+    int ansBoard[9][9];
+    int optionsBoard[9][9][9];
+    void newAnswerBoard();
+    bool generateAnswer();
+    bool checkValid(int x, int y, int value);
+    void clearBoards();
 public:
-    explicit Board(int difficulty = 0);
+    explicit Board();
     ~Board();
     void generateRandom(int difficulty);
+    void showAnswer();
 };
 
 #endif /* board_hpp */
