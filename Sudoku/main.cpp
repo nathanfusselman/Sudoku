@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  sodoku
+//  Sudoku
 //
 //  Created by Nathan Fusselman on 12/19/20.
 //

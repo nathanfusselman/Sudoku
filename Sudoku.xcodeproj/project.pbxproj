@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7FC72A3C258EDA6B0031C180 /* sodoku */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sodoku; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC72A3C258EDA6B0031C180 /* Sudoku */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sudoku; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC72A47258EDBB10031C180 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7FC72A4D258EDDAD0031C180 /* board.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = board.cpp; sourceTree = "<group>"; };
 		7FC72A4E258EDDAD0031C180 /* board.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = board.hpp; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		7FC72A33258EDA6B0031C180 = {
 			isa = PBXGroup;
 			children = (
-				7FC72A3E258EDA6B0031C180 /* sodoku */,
+				7FC72A3E258EDA6B0031C180 /* Sudoku */,
 				7FC72A3D258EDA6B0031C180 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,27 +52,27 @@
 		7FC72A3D258EDA6B0031C180 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FC72A3C258EDA6B0031C180 /* sodoku */,
+				7FC72A3C258EDA6B0031C180 /* Sudoku */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FC72A3E258EDA6B0031C180 /* sodoku */ = {
+		7FC72A3E258EDA6B0031C180 /* Sudoku */ = {
 			isa = PBXGroup;
 			children = (
 				7FC72A47258EDBB10031C180 /* main.cpp */,
 				7FC72A4D258EDDAD0031C180 /* board.cpp */,
 				7FC72A4E258EDDAD0031C180 /* board.hpp */,
 			);
-			path = sodoku;
+			path = Sudoku;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FC72A3B258EDA6B0031C180 /* sodoku */ = {
+		7FC72A3B258EDA6B0031C180 /* Sudoku */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FC72A43258EDA6B0031C180 /* Build configuration list for PBXNativeTarget "sodoku" */;
+			buildConfigurationList = 7FC72A43258EDA6B0031C180 /* Build configuration list for PBXNativeTarget "Sudoku" */;
 			buildPhases = (
 				7FC72A38258EDA6B0031C180 /* Sources */,
 				7FC72A39258EDA6B0031C180 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = sodoku;
+			name = Sudoku;
 			productName = sodoku;
-			productReference = 7FC72A3C258EDA6B0031C180 /* sodoku */;
+			productReference = 7FC72A3C258EDA6B0031C180 /* Sudoku */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7FC72A37258EDA6B0031C180 /* Build configuration list for PBXProject "sodoku" */;
+			buildConfigurationList = 7FC72A37258EDA6B0031C180 /* Build configuration list for PBXProject "Sudoku" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FC72A3B258EDA6B0031C180 /* sodoku */,
+				7FC72A3B258EDA6B0031C180 /* Sudoku */,
 			);
 		};
 /* End PBXProject section */
@@ -265,7 +265,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FC72A37258EDA6B0031C180 /* Build configuration list for PBXProject "sodoku" */ = {
+		7FC72A37258EDA6B0031C180 /* Build configuration list for PBXProject "Sudoku" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FC72A41258EDA6B0031C180 /* Debug */,
@@ -274,7 +274,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FC72A43258EDA6B0031C180 /* Build configuration list for PBXNativeTarget "sodoku" */ = {
+		7FC72A43258EDA6B0031C180 /* Build configuration list for PBXNativeTarget "Sudoku" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FC72A44258EDA6B0031C180 /* Debug */,
